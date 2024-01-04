@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+nth
+.primary-text{
+  color: limegreen;
+}
+.logo{
+  color: #ffffff;
+  /* padding: 1rem; */
+}
+.logo i{
+  color: limegreen;
+}
+#navbar{
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  flex-wrap: wrap;
+  padding:  1rem;
+}
+#navbar ul li a{
+  color: white;
+  list-style: none;
+  /* display: flex; */
+  text-decoration: none;
+}
+#navbar ul{
+  display: flex;
+  list-style: none;
+}
+#navbar ul li a:hover{
+  color: limegreen;
+}
+
+/* li a:hover{
+  color: limegreen;
+} */
+a{
+  padding: 0 1rem;
+}
+.showcase{
+  background-image: url(/image/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: cover;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background-color: #333333;
+}
+.submit{
+  padding: 1rem 3rem;
+  background-color: limegreen;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem auto;
+}
+.submit:hover{
+  color: lime;
+}
+.sky{
+  font-size: 45px;
+}
+.lorem{
+  font-size: 19px;
+}
+.text-wrap {
+  min-width: 50%;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.whatwedo{
+  text-align: center;
+  font-size: 30px;
+}
+h4{
+  padding: 0.7rem 0;
+}
+.what{
+  background-color: #f4f4f4;
+  color: #333333;
+  padding: 3rem;
+}
+.what i{
+  padding: 1rem;
+  background-color: limegreen;
+  border-radius: 5rem;
+}
+.what-item{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+
+  /* margin: 2rem; */
+  /* gap: 5rem; */
+  /* line-height: 2rem; */
+}
+.item{
+  flex: 1;
+}
+#people-whoweare{
+  /* width: 100vw; */
+  height: 400px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.people{
+  /* width: 50%; */
+  /* height: 80vh; */
+  background: url(/image/people.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#people-whoweare div{
+  flex: 1;
+}
+.who{
+  background-color: #333;
+  color: #ffffff;
+  /* width: 50%; */
+  /* height: 80vh; */
+  /* margin: 1rem; */
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.people img{
+  /* width: 50vw; */
+  /* height: 100%; */
+}
+#client-img{
+  padding: 1rem;
+}
+.client{
+  text-align: center;
+}
+.client-img{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100vw;
+}
+.client-img div img{
+  flex: 1;
+  width: 80%;
+}
+.contact{
+  background-color: limegreen;
+  color: #f4f4f4;
+  padding: 2rem 1rem;
+}
+form label, input{
+  display: block;
+  /* padding: 0 4rem ; */
+  width: 100%;
+}
+div{
+  padding: 0.5rem 0;
+}
+textarea{
+  width: 100%;
+  height: 1.3rem;
+}
+.send{
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 0.2rem;
+}
+#contact-form{
+  display: flex;
+}
+#contact-form form div, div{
+  flex: 1;
+}
+.oops{
+  background-color: #f4f4f4b2;
+  color: black;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 8rem 0;
+}
+.wrong{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+footer{
+  background-color: black;
+}
+@media screen  and (max-width:800px){
+  #navbar{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #navbar ul{
+    margin-top: 1rem;
+  }
+  .what-item{
+    flex-direction: column;
+  }
+  .client-img{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #people-whoweare{
+    flex-direction: column;
+    height: auto;
+    height: 800px;
+    /* width: 50%; */
+  }
+  #contact-form{
+    flex-direction: column;
+
+  }
+}
+.item:second-child{
+  background-color: purple;
+}
+.logo:last-child {
+  background-color:black;
+}
+/* @media screen and (max-width:500px){
+  #who{
+    flex-direction: column;
+    height: ;
+  }
+} */
